@@ -1,4 +1,4 @@
 # Advanced Topics in Control
 ## Abstract
-<img align="right" height="140" src="https://github.com/andreadacol98/Dynamic_Programming/blob/main/Images/opinion_evolution.PNG"></img>
+<img align="right" height="140" src="https://github.com/andreadacol98/Dynamic_Programming/blob/main/Images/opinion_evolution.png"></img>
 In this paper, inspired by a distributed ledger technology called IOTA, we model and analyze a simplified version of the IOTA consensus algorithm from a distributed control system point of view. First we propose a randomized distributed averaging algorithm and show that all nodes converge to consensus almost surely. Then, in order to make it robust to malicious nodes, we implement a control strategy on some nodes called coordinators that update their opinions to steer the collective behaviour of the network towards a given reference, thus achieving some kind of robustness against the influence of the malicious nodes themselves. We provide mathematical guarantees on some scenarios and conjectures on others based on simulations.
